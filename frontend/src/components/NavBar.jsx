@@ -21,15 +21,15 @@ const NavBar = () => {
                 <hr className='border-none outline-none h-0.5 bg-[#40E0D0] w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to='/therapists'>
-                <li className='py-1'>Therapists</li>
+                <li className='py-1'>Massage Services</li>
                 <hr className='border-none outline-none h-0.5 bg-[#40E0D0] w-3/5 m-auto hidden' />
             </NavLink>
             <NavLink to='about'>
-                <li className='py-1'>About</li>
+                <li className='py-1'>Travel-Mates</li>
                 <hr className='border-none outline-none h-0.5 bg-[#40E0D0] w-3/5 m-auto hidden' />
             </NavLink>
-            <NavLink to='/contact'>
-                <li className='py-1'>Contact</li>
+            <NavLink to='/about'>
+                <li className='py-1'>How it Works</li>
                 <hr className='border-none outline-none h-0.5 bg-[#40E0D0] w-3/5 m-auto hidden' />
             </NavLink>
         </ul>
