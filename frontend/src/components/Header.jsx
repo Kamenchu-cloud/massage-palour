@@ -29,7 +29,7 @@ const Header = () => {
       {/* Right Side */}
       <div className="md:w-1/2 relative overflow-hidden mt-8 md:mt-0">
         <img
-          className="w-full h-full object-cover absolute top-0 left-0 rounded-lg shadow-lg"
+          className="w-full h-auto md:h-full object-cover absolute top-0 left-0 rounded-lg shadow-lg"
           src={headerimg}
           alt=""
         />
